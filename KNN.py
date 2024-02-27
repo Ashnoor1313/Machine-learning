@@ -46,7 +46,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 knn = KNeighborsClassifier(n_neighbors=3)
 
-'''knn.fit(X_train,y_train)
+knn.fit(X_train,y_train)
 
 y_pred = knn.predict(X_test)
 
@@ -65,7 +65,7 @@ print(accuracy_score(y_pred,y_test))
 
 predction = knn.predict([[5.3,3.6,1.3,1.2]])
 
-print([predction])'''
+print([predction])
 
 
 
